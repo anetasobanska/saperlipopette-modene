@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "node-sass --watch css/style.scss css/style.css",
-    "build": "nodemon --exec babel-node ./js/* ",
+    "build": "nodemon --exec babel-node ./js/index.js",
     "start": "concurrently \"npm run watch\" \"npm run build\""
   },
   "repository": {
