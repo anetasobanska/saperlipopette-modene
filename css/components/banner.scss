@@ -1,6 +1,10 @@
 @import "../variables.scss";
 
 .banner {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   height: 80vh;
   position: relative;
   @media (max-width: $widescreen) {
